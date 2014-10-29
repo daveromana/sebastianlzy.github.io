@@ -5,168 +5,179 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Alpha by HTML5 UP</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrollgress.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body class="landing">
+<head>
+	<title>Alpha by HTML5 UP</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.dropotron.min.js"></script>
+	<script src="js/jquery.scrollgress.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-layers.min.js"></script>
+	<script src="js/init.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-wide.css" />
+	</noscript>
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+</head>
+<body class="landing">
+<script>
+	$('a').click(function(){
+		$('html, body').animate({
+			scrollTop: $( $(this).attr('href') ).offset().top
+		}, 2000);
+		return false;
+	});
+</script>
+<!-- Header -->
+<header id="header" class="alt">
+	<h1><a href="index.html">My name is</a> Sebastian</h1>
+	<nav id="nav">
+		<ul>
 
-		<!-- Header -->
-			<header id="header" class="alt">
-				<h1><a href="index.html">Alpha</a> by HTML5 UP</h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li>
-							<a href="" class="icon fa-angle-down">Layouts</a>
-							<ul>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li>
-									<a href="">Submenu</a>
-									<ul>
-										<li><a href="#">Option One</a></li>
-										<li><a href="#">Option Two</a></li>
-										<li><a href="#">Option Three</a></li>
-										<li><a href="#">Option Four</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li><a href="#" class="button">Sign Up</a></li>
-					</ul>
-				</nav>
-			</header>
+			<li>
+				<a href="#portfolio" rel="" id="myPortfolio">My Portfolio</a>
+			</li>
+			<li><a href="#aboutMe">About Me</a></li>
 
-		<!-- Banner -->
-			<section id="banner">
-				<h2>Alpha</h2>
-				<p>Another fine responsive site template freebie by HTML5 UP.</p>
-				<ul class="actions">
-					<li><a href="#" class="button special">Sign Up</a></li>
-					<li><a href="#" class="button">Learn More</a></li>
-				</ul>
+		</ul>
+	</nav>
+</header>
+
+<!-- Banner -->
+<section id="banner">
+	<h2>I am a full stack developer</h2>
+	<p>Most comfortable with<br/> <i>Javascript,Java,Ruby</i>
+		<br><i> Angular, Spring and Rails</i></p>
+	<ul class="actions">
+		<li><a href="images/Lee_Zhen_Yang_Sebastian_Resume.pdf" class="button special">My Resume</a></li>
+		<li><a href="#aboutMe" class="button">More about me</a></li>
+	</ul>
+</section>
+
+<!-- Main -->
+<section class="container" id="portfolio">
+
+	<section class="box special">
+		<header class="major">
+			<h2><strong>Jarvis</strong>
+			</h2>
+			<div>
+				<p>
+
+					A quick and easy solution for housing agents to turn over a house.
+				</p>
+			</div>
+		</header>
+		<img src="images/ss5.png"/>
+		<br/>
+		<img src="images/app-store.png" width="80"/>
+		<img src="images/google-play.png" width="90"/>
+
+		<span class="image featured"><img src="images/pic01ss.jpg" alt="" /></span>
+	</section>
+
+	<section class="box special features" id="aboutMe">
+		<div class="features-row">
+			<section>
+				<span class="icon major fa-university accent2"></span>
+				<h3>School</h3>
+				<p>
+					Studied in <strong>National University of Singapore</strong><br/>
+					Graduated with <strong>Second upper class</strong> in 2013<br/>
+					Major in <strong>Information System</strong><br/>
+					Minor in <strong>Technopreneurship</strong><br/>
+				</p>
 			</section>
+			<section>
+				<span class="icon major fa-area-chart accent3"></span>
+				<h3>Working Experience</h3>
+				Worked as <br/>
+				<p>
+					<i>Software Engineer</i> in <a href="http://www.afteryou.com/"><strong>AfterYou</strong></a> - May 2014 to present<br/>
+					<i>System Analyst</i> in <a href="http://www.csit.gov.sg/"><strong>CSIT</strong></a> - July 2013 to May 2014<br/>
+					<i>Software Engineer(intern)</i> in <a href="http://rocketfuel.com/"><strong>RocketFuel</strong></a> - Jan 2011 to Dec 2011
 
-		<!-- Main -->
-			<section id="main" class="container">
-		
-				<section class="box special">
-					<header class="major">
-						<h2>Introducing the ultimate mobile app
-						<br />
-						for doing stuff with your phone</h2>
-						<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
-						adipiscing nunc adipiscing. Condimentum turpis massa.</p>
-					</header>
-					<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-				</section>
-						
-				<section class="box special features">
-					<div class="features-row">
-						<section>
-							<span class="icon major fa-bolt accent2"></span>
-							<h3>Magna etiam</h3>
-							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-						</section>
-						<section>
-							<span class="icon major fa-area-chart accent3"></span>
-							<h3>Ipsum dolor</h3>
-							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-						</section>
-					</div>
-					<div class="features-row">
-						<section>
-							<span class="icon major fa-cloud accent4"></span>
-							<h3>Sed feugiat</h3>
-							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-						</section>
-						<section>
-							<span class="icon major fa-lock accent5"></span>
-							<h3>Enim phasellus</h3>
-							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-						</section>
-					</div>
-				</section>
-					
+				</p>
+			</section>
+		</div>
+		<div class="features-row">
+			<section>
+				<span class="icon major fa-graduation-cap accent4"></span>
+				<h3>Scholastic Achievements</h3>
+
 				<div class="row">
-					<div class="6u">
-
-						<section class="box special">
-							<span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
-							<h3>Sed lorem adipiscing</h3>
-							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							<ul class="actions">
-								<li><a href="#" class="button alt">Learn More</a></li>
-							</ul>
-						</section>
-						
+					<div class="12u">
+						<ul style="text-align: left">
+							<li>
+								CareersGo Programming (Champion team) 2012
+							</li>
+							<li>
+								mySAP ERP TERP 10 Certificate 2010
+							</li>
+							<li>
+								The Institution of Engineering & Technology Prize 2007
+							</li>
+							<li>
+								Singapore Polytechnic Director honor list for academic year, Singapore Polytechnic 2005-2009
+							</li>
+							<li>
+								CISCO system book prize (Merit Award), Singapore Polytechnic 2005
+							</li>
+						</ul>
 					</div>
-					<div class="6u">
 
-						<section class="box special">
-							<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
-							<h3>Accumsan integer</h3>
-							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							<ul class="actions">
-								<li><a href="#" class="button alt">Learn More</a></li>
-							</ul>
-						</section>
-
-					</div>
 				</div>
 
-			</section>
-			
-		<!-- CTA -->
-			<section id="cta">
-				
-				<h2>Sign up for beta access</h2>
-				<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
-				
-				<form>
-					<div class="row uniform half collapse-at-2">
-						<div class="8u">
-							<input type="email" name="email" id="email" placeholder="Email Address" />
-						</div>
-						<div class="4u">
-							<input type="submit" value="Sign Up" class="fit" />
-						</div>
-					</div>
-				</form>
-				
-			</section>
-			
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-					<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
 
-	</body>
+			</section>
+			<section>
+				<span class="icon major fa-lock accent5"></span>
+				<h3>Programming proficiency</h3>
+				<p>Advance Level<br/>
+
+					<strong>Javascript</strong> <i> - Angular Js, Ionic JS</i><br/>
+					<strong>Java</strong> <i> - Spring MVC</i><br/>
+				Moderate Level<br/>
+					<strong>Python</strong> - <i>Django</i>,<strong>Ruby on Rails</strong></p>
+			</section>
+		</div>
+	</section>
+
+
+
+</section>
+
+<!-- CTA -->
+<section id="cta">
+
+	<h2>Lets get in touch</h2>
+	<p>Say hello?</p>
+
+	<form>
+		<div class="row uniform half collapse-at-2">
+			<div class="-2u 8u">
+				<a class="button" href="mailto:sebastian.lzy@me.com">Email Me</a>
+			</div>
+		</div>
+	</form>
+
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		<li><a href="https://www.linkedin.com/in/sebastianlzy" class="icon fa-linkedin"><span class="label">Instagram</span></a></li>
+		<li><a href="https://github.com/sebastianlzy" class="icon fa-github"><span class="label">Github</span></a></li>
+	</ul>
+	<ul class="copyright">
+		<li> sebastian.lzy@me.com </li><li>Lee Zhen Yang</li>
+	</ul>
+</footer>
+
+</body>
 </html>
