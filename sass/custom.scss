@@ -1,0 +1,31 @@
+@import 'style';
+
+#banner {
+  background-image: url('images/overlay.png'), url('../images/keyboardAndCoffee.jpg');
+
+  strong {
+    color: #ffffff;
+  }
+}
+
+#main {
+  .jarvis-logo {
+    padding: 20px;
+  }
+}
+
+.features-row{
+  p{
+    margin: 0px;
+  }
+  .description {
+    text-align: left;
+    padding: 0px;
+  }
+}
+
+#cta{
+  a{
+    color:#fff;
+  }
+}
