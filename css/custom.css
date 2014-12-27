@@ -1062,6 +1062,9 @@ body.landing #main {
   #banner strong {
     color: #ffffff; }
 
+.major a {
+  border-bottom: none; }
+
 #main .jarvis-logo {
   padding: 20px; }
 
@@ -1072,4 +1075,4 @@ body.landing #main {
   padding: 0px; }
 
 #cta a {
-  color: white; }
+  color: #fff; }
